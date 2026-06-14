@@ -133,6 +133,7 @@ a{color:var(--blue)}
         <p>Nav It collects no personal data directly. The only piece of optional, user-provided information the app handles is:</p>
         <ul>
             <li><strong>Stormglass API key</strong> — if you choose to use the Live Tide feature, you may optionally enter your own Stormglass API key. This key is stored only on your device (see Section 3) and is sent solely to the Stormglass API on your behalf when you request tide data. We never see, store, or transmit your API key ourselves.</li>
+            <li><strong>Location coordinates for live weather data</strong> — if you use the Live Wind or Live Tide features, the coordinates of your current route are sent to Open-Meteo and/or Stormglass to fetch live conditions. These coordinates are not stored by us and are not linked to any personal identity.</li>
         </ul>
         <p>We do not ask for your name, email address, location, or any other identifying information.</p>
     </div>
@@ -156,6 +157,7 @@ a{color:var(--blue)}
         <p>The app uses the following third-party services. Each has its own privacy policy, linked below.</p>
         <ul>
             <li><strong>CartoCDN / CARTO</strong> — provides the map tiles displayed in the app. Your device requests map tiles from CARTO's servers as you navigate the map. Standard server logs (IP address, tile coordinates) may be retained by CARTO under their own policy. <a href="https://carto.com/privacy" target="_blank" rel="noopener">CARTO Privacy Policy</a></li>
+            <li><strong>Open-Meteo</strong> — if you use the Live Wind feature, your device sends the latitude and longitude of your route's first waypoint (or the map's current centre) directly to Open-Meteo to retrieve current wind speed and direction. No other information is sent. <a href="https://open-meteo.com/en/terms" target="_blank" rel="noopener">Open-Meteo Terms &amp; Privacy</a></li>
             <li><strong>Stormglass</strong> — if you choose to use the Live Tide feature and provide your own API key, your device communicates directly with Stormglass to retrieve marine current data. Your use of Stormglass is subject to their privacy policy. <a href="https://stormglass.io/privacy-policy" target="_blank" rel="noopener">Stormglass Privacy Policy</a></li>
             <li><strong>Leaflet</strong> — an open-source JavaScript mapping library loaded from unpkg.com CDN. No personal data is collected by Leaflet.</li>
         </ul>
